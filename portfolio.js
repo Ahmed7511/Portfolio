@@ -16,3 +16,8 @@ $(document).ready(function () {
   document.getElementById('scrollToTop').addEventListener('click', function(){
          window.scrollTo(0,0);
  });
+
+ document.getElementById('submit').addEventListener('click', function(event){
+  alert('We are working on this feature. Thank you for contacting us by e-mail !')
+  window.location.reload();
+});

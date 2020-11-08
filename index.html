@@ -96,18 +96,8 @@
                       </div>
                     </div>
                     <div class="skill my-4">
-                      <b class="text-white h6">SCSS</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-info"
-                          role="progressbar"
-                          data-progress="70%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
                       <b class="text-white h6">JAVASCRIPT</b>
-                      <div class="progress">
+                      <div class="progress">   
                         <div
                           class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
                           role="progressbar"
@@ -168,53 +158,48 @@
                   </div>
           </section>
           <section id="projets">
-            <div class="container-fluid mt-5">
-           
-              <h3 class="card-title text-danger text-uppercase bg-dark text-center">Mes Projets Openclassrooms</h3>
-              
-          <div class="row" >
-            <div class="col-md-4 mt-3">
-          <div class="card text-center bg-dark text-white">
-            <img src="./mon-cv.PNG" class="card-img-top" alt="mon-cv">
-            <div class="card-body">
-              <h5 class="card-title text-success">CV</h5>
-              <p class="card-text">Transformez une maquette en site web</p>
-            </div>
-            <div class="card-body bg-dark">
+          <h3 class="card-title text-danger text-uppercase bg-dark text-center mt-5 ">Mes Projets Openclassrooms</h3>
+
+          <div class="card-deck">
+
+            <div class="card">
+              <img src="./mon-cv.PNG" class="card-img-top" alt="CV">
+              <div class="card-body">
+                <h5 class="card-title text-success">CV</h5>
+                <p class="card-text">Transformez une maquette en site web.</p>
+                <p class="card-text"><small class="text-muted">
               <a href="https://github.com/Ahmed7511/mon-cv" class="card-link" target="blank">code source</a>
-              <a href="https://ahmed7511.github.io/mon-cv/" class="card-link" target="blank">page-web</a>
+              <a href="https://ahmed7511.github.io/mon-cv/" class="card-link" target="blank">page web</a>
+                </small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./menu.PNG" class="card-img-top" alt="Menu-Restaurant">
+              <div class="card-body">
+                <h5 class="card-title text-warning">Oh My Food</h5>
+                <p class="card-text">Dynamisez une page web avec des animations CSS.</p>
+                <p class="card-text"><small class="text-muted">
+                  
+              <a href="https://github.com/Ahmed7511/mon-cv" class="card-link" target="blank">code source</a>
+              <a href="https://ahmed7511.github.io/mon-cv/" class="card-link" target="blank">page web</a>
+                </small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./la-chouette.jpg" class="card-img-top" alt="la-chouette">
+              <div class="card-body">
+                <h5 class="card-title text-danger">La Chouette</h5>
+                <p class="card-text">Optimisez un site web existant.</p>
+                <p class="card-text"><small class="text-muted">
+              <a href="https://ahmed7511.github.io/p4-origine/" class="card-link" target="blank">page web Initial</a>
+                <a href="https://github.com/Ahmed7511/la-chouette" class="card-link" target="blank">code Source</a>
+                <a href="https://ahmed7511.github.io/la-chouette/" class="card-link" target="blank">page web Optimisez</a>
+             </small></p>
+              </div>
             </div>
           </div>
-          </div>
-            <div class="col-md-4 mt-3">
-          <div class="card text-center" >
-            <img src="./menu.PNG" class="card-img-top" alt="menu">
-            <div class="card-body bg-dark text-white">
-              <h5 class="card-title text-warning">OhMyFood</h5>
-              <p class="card-text">Dynamisez une page web avec des animations CSS</p>
-            </div>
-            <div class="card-body bg-dark">
-              <a href="https://github.com/Ahmed7511/Menu-Restaurant" class="card-link" target="blank">code source</a>
-              <a href="https://ahmed7511.github.io/Menu-Restaurant/" class="card-link" target="blank">page-web</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-3">
-          <div class="card text-center" >
-            <img src="./la-chouette.jpg" class="card-img-top" alt="la-chouette">
-            <div class="card-body bg-dark text-white">
-              <h5 class="card-title text-secondary">La Chouette</h5>
-              <p class="card-text">Optimisez un site web existant</p>
-            </div>
-            <div class="card-body bg-dark">
-              <a href="https://github.com/Ahmed7511/la-chouette" class="card-link" target="blank">code source</a>
-              <a href="https://ahmed7511.github.io/la-chouette/" class="card-link" target="blank">page-web</a>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      </section>
+        </section>
+          
         <section id="contact">
           <div class="container-fluid mt-5">
           <h3 class="card-title text-danger text-uppercase bg-dark text-center">Contact</h3>
@@ -224,7 +209,7 @@
                       <div class="contact-form">
                           <h3>N'hésitez pas à me contacter :</h3><br>
                           
-                          <form method="post" action="mail.php">
+                          <form method="post" >
 
                               <div class='form-group'>
                                   <label for='nom'>Nom</label>
@@ -246,7 +231,7 @@
                                   <textarea name='message' class='form-control' id='message' rows='5' placeholder='Exemple : Nous aimerions vous rencontrer afin de...' required=''></textarea>
                               </div>
 
-                              <button type='submit' name='submit' class='btn btn-primary'>Envoyer</button>   
+                              <button type='submit' name='submit' id="submit" class='btn btn-primary'>Envoyer</button>   
                           </form>						  
                       </div>
                   </div>
