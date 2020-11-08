@@ -1,0 +1,15 @@
+a{
+    color: blue;
+}
+.card-body>a{
+    color: red;
+    text-transform: uppercase;
+}
+
+#scrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+    border-radius: 50%;
+}
