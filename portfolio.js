@@ -12,13 +12,18 @@ $(document).ready(function () {
     });
   });
 
+  $('#more').on('click', function(){ 
+    
+    $(this).hide();
+  });
+  
 
 
-  document.getElementById('scrollToTop').addEventListener('click', function(){
+  $('#scrollToTop').on('click', function(){
          window.scrollTo(0,0);
  });
 
- document.getElementById('submit').addEventListener('click', function(event){
-  alert('We are working on this feature. Thank you for contacting us by e-mail !')
-  window.location.reload();
+ $('#submit').on('click', function(){
+    alert('We are working on this feature. Thank you for contacting us by e-mail !')
+    window.location.reload();
 });

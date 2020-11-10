@@ -55,8 +55,8 @@
             </figure>
             <p class="text-white">Having recently graduated from a BAC + 2 (Web Developer and Integrator).
               My professional success being my main objective, I want to deepen my theoretical knowledge and put it into practice within a company.
-              <i role="button" data-toggle="collapse" data-target="#content" aria-expanded="false" aria-controls="content" class="fas fa-chevron-down servicedrop" style="color: #ffffff;"></i>            
             </p>
+            <a id="more" role="button" data-toggle="collapse" data-target="#content" aria-expanded="false" aria-controls="content" style="color: blue;" >...see more</a>                       
             <div class="collapse" id="content" >
               <h2 class="card-title text-warning text-uppercase" >Soft Skills </h2>
               <p class="text-white">
@@ -117,16 +117,7 @@
                         ></div>
                       </div>
                     </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">Mysql</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-secondary"
-                          role="progressbar"
-                          data-progress="60%"
-                        ></div>
-                      </div>
-                    </div>
+                   
                     <div class="skill my-4">
                       <b class="text-white h6">VueJS</b>
                       <div class="progress">
@@ -151,7 +142,27 @@
                       <b class="text-white h6">Git</b>
                       <div class="progress">
                         <div
-                          class="progress-bar bg-secondary "
+                          class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                          role="progressbar"
+                          data-progress="60%"
+                        ></div>
+                      </div>
+                    </div>
+                     <div class="skill my-4">
+                      <b class="text-white h6">MongoDB</b>
+                      <div class="progress">
+                        <div
+                          class="progress-bar bg-success  progress-bar-striped progress-bar-animated "
+                          role="progressbar"
+                          data-progress="60%"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="skill my-4">
+                      <b class="text-white h6">Mysql</b>
+                      <div class="progress">
+                        <div
+                          class="progress-bar bg-secondary"
                           role="progressbar"
                           data-progress="60%"
                         ></div>
@@ -160,7 +171,7 @@
                   </div>
           </section>
           <section id="projets">
-          <h3 class="card-title text-danger text-uppercase bg-dark text-center mt-5 ">My Openclassrooms Projects</h3>
+          <h3 class="card-title text-danger text-uppercase bg-dark text-center mt-5 py-2 ">My Openclassrooms Projects</h3>
 
           <div class="card-deck">
 
@@ -169,6 +180,7 @@
               <div class="card-body">
                 <h4 class="card-title text-success">CV</h4>
                 <p class="card-text">Turn a mockup into a website.</p>
+                <small>HTML5, CSS3</small>
                 <p class="card-text"><small class="text-muted">
               <a href="https://github.com/Ahmed7511/mon-cv" class="card-link" target="blank">source code</a>
               <a href="https://ahmed7511.github.io/mon-cv/" class="card-link" target="blank">web page</a>
@@ -180,6 +192,7 @@
               <div class="card-body">
                 <h4 class="card-title text-warning">Oh My Food</h4>
                 <p class="card-text">Energize a web page with CSS animations.</p>
+                <small>HTML5, CSS3</small>
                 <p class="card-text"><small class="text-muted">
                   
               <a href="https://github.com/Ahmed7511/Menu-Restaurant" class="card-link" target="blank">source code</a>
@@ -193,6 +206,7 @@
               <div class="card-body">
                 <h4 class="card-title text-danger">La Chouette</h4>
                 <p class="card-text">Optimize an existing website.</p>
+                <small>SEO, W3C, Google Search Console, Google Lighthouse</small>
                 <p class="card-text"><small class="text-muted">
               <a href="https://ahmed7511.github.io/p4-origine/" class="card-link" target="blank">Initial web page</a>
                 <a href="https://github.com/Ahmed7511/la-chouette" class="card-link" target="blank">Source code</a>
@@ -207,6 +221,7 @@
             <div class="card-body">
               <h4 class="card-title text-danger">Orinico</h4>
               <p class="card-text">Build an e-commerce web site.</p>
+              <small>HTML5, CSS3, Javascript</small>
               <p class="card-text"><small class="text-muted">
               <a href="https://github.com/Ahmed7511/Orinico" class="card-link" target="blank">Source code</a>
            </small></p>
@@ -217,6 +232,7 @@
             <div class="card-body">
               <h4 class="card-title text-danger">So pekocko</h4>
               <p class="card-text">Build a secure API for a food review app.</p>
+              <small>NodeJs, Express, Mongoose, MongoDB</small>
               <p class="card-text"><small class="text-muted">
               <a href="https://github.com/Ahmed7511/So-pekocko" class="card-link" target="blank">Source code</a>
            </small></p>
@@ -228,6 +244,7 @@
               <h4 class="card-title text-danger">Groupomania</h4>
               <p class="card-text">
                 Create a corporate social network.</p>
+                <small>NodeJs, Express, Sequelize, Mysql, VueJS, Vuetify</small>
               <p class="card-text"><small class="text-muted">
               <a href="https://github.com/Ahmed7511/Groupomania" class="card-link" target="blank">Source code</a>
            </small></p>
@@ -238,7 +255,7 @@
           
         <section id="contact">
           <div class="container-fluid mt-5">
-          <h3 class="card-title text-danger text-uppercase bg-dark text-center">Contact</h3>
+          <h3 class="card-title text-danger text-uppercase bg-dark text-center py-2">Contact</h3>
           
               <div class="row">
                   <div class="col-md-6">
@@ -254,7 +271,7 @@
 
                               <div class='form-group'>
                                   <label for='email'>E-mail</label>
-                                  <input type='email' name='email' class='form-control' id='email' placeholder='Exemple : ahmed.mohamedcherifpro@gmail.com' required=''>
+                                  <input type='email' name='email' class='form-control' id='email' placeholder='Exemple : XXX@gmail.com' required=''>
                               </div>
 
                               <div class='form-group'>
