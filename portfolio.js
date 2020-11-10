@@ -13,10 +13,8 @@ $(document).ready(function () {
   });
 
   $('#more').on('click', function(){ 
-    
     $(this).hide();
   });
-  
 
 
   $('#scrollToTop').on('click', function(){
