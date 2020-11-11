@@ -12,10 +12,11 @@ $(document).ready(function () {
     });
   });
 
+  $(document).ready(function () {
   $('#more').on('click', function(){ 
     $(this).hide();
   });
-
+});
 
   $('#scrollToTop').on('click', function(){
          window.scrollTo(0,0);
