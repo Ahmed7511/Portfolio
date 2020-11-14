@@ -1,8 +1,10 @@
 a{
     color: blue;
 }
+.card{
+    background-color: rgb(31, 30, 30);
+}
 .card-body>a{
-    color: red;
     text-transform: uppercase;
 }
 
