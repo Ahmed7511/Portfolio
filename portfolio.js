@@ -20,15 +20,6 @@ $(document).ready(function () {
   });
 });
 
-=======
-  
-// hide see more on click
-  $('#more').on('click', function(){ 
-    $(this).hide();
-  });
-
-// scroll to top on click 
->>>>>>> branchtest
   $('#scrollToTop').on('click', function(){
          window.scrollTo(0,0);
  });
