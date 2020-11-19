@@ -12,7 +12,6 @@ $(document).ready(function () {
       });
     });
   });
-<<<<<<< HEAD
 
   $(document).ready(function () {
   $('#more').on('click', function(){ 
