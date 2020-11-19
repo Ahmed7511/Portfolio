@@ -1,3 +1,4 @@
+// progress bars 
 $(document).ready(function () {
     $(window).on("scroll", function () {
       $(".progress").each(function (index, progress) {
@@ -11,6 +12,7 @@ $(document).ready(function () {
       });
     });
   });
+<<<<<<< HEAD
 
   $(document).ready(function () {
   $('#more').on('click', function(){ 
@@ -18,11 +20,15 @@ $(document).ready(function () {
   });
 });
 
+=======
+  
+// hide see more on click
+  $('#more').on('click', function(){ 
+    $(this).hide();
+  });
+
+// scroll to top on click 
+>>>>>>> branchtest
   $('#scrollToTop').on('click', function(){
          window.scrollTo(0,0);
  });
-
- $('#submit').on('click', function(){
-    alert('We are working on this feature. Thank you for contacting us by e-mail !')
-    window.location.reload();
-});
