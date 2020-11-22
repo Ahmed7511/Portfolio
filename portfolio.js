@@ -22,3 +22,4 @@ $(document).ready(function () {
   $('#scrollToTop').on('click', function(){
          window.scrollTo(0,0);
  });
+
