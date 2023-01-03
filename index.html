@@ -1,396 +1,333 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <html xmlns:og="http://ogp.me/ns#">
-<head>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="ahmed-mohamedcherif, développeur web, web developer">
-    <meta name="description" content="portfolio"> <!-- description-->
-    <meta proprety="og:title" content="Ahmed Mohamed cherif">
-    <meta proprety="og:description" content="portfolio page">
-  <meta name="robots" content="index, follow"> <!--meta robots-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-     <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Ahmed Mohamed cherif | portfolio</title>
-</head>
-<body class="bg-secondary">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <span class="navbar-brand">Mohamed Cherif Ahmed</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Ahmed Mohamed Cherif</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projets">Projets</a>
-                </li>  
-                <li class="nav-item">
-                    <a class="nav-link" href="#Skills">mes compétences</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-              </ul>
-          </div>
-          </nav>
 
-    <div class="container-fluid  mt-3">
-       
-      <div class="jumbotron bg-dark ">
-            <h1 class="display-4 text-white">
-              Concepteur Développeur d'Application 
-            </h1>
-            <a role="button" class="btn btn-link " href="https://github.com/Ahmed7511" target="blank">
-              <i class="fab fa-github"></i>Github</a>
-            <a class="btn btn-link bg-black" href="https://www.linkedin.com/in/ahmed-mohamed-cherif-a6119a1a2/" target="blank">
-              <i class="fab fa-linkedin"></i>Linkedin</a>
-          <a role="button" class="text-white" href="cv_Ahmed_mohamed_cherif.pdf" download="cv_Mohamed_Cherif_AHMED" aria-label="télecharger" >
-            <i class="far fa-paper-plane">télecharger mon cv</i>
-          </a>
-            <hr class="my-4">
-            <figure class="figure">
-              <img src="./new-pic.jpg" class="figure-img img-fluid rounded" alt="ma-photo">
-              <figcaption class="figure-caption text-right"></figcaption>
-            </figure>
-            <p class="text-white">    
-              après avoir terminé mon bac+2 en tant que Développeur et Intégrateur Web je viens de validé mon bac +3 comme concepteur développeur d'application 
-              Cette formation a confirmé mon appétit pour le développement web et mes objectifs sont maintenant d'améliorer mes compétences et de travailler sur le terrain.
-              Je souhaite donc approfondir mes connaissances dans le web et les mettre en pratique au sein d'une entreprise.<br>
-            <a id="more" role="button" data-toggle="collapse" data-target="#content" aria-expanded="false" aria-controls="content" >...see more</a>                       
-            <div class="collapse" id="content" >
-            </p>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
 
-              <!------------------------------------------------------ soft skills on click -------------------------------------------------------------->
-              <h2 class="card-title text-danger text-uppercase" >Soft Skills </h2>
-              <p class="text-white">
-                Esprit critique, Audace, Rigueur, Autodidacte, Coopération, Adaptabilité, Calme, Honnêteté</p>
-
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        change mode
+                      </div>
+                    </div>
+                </ul>
             </div>
-           
-          </div>
-          <!------------------------------------------------------- scrolling button ----------------------------------------------------------->
-          <button id="scrollToTop" aria-label="scroll" >
-            <i class="far fa-arrow-alt-circle-up"></i>
-          </button>
-          <!-------------------------------------------------------- skills section ------------------------------------------------------------->
-          <section id="Skills">
-            
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
             <div class="row">
-              <div class="col-md-12 text-center">
-                <div class="card mt-5">
-                  <div class="card-body">
-                    <h2 class="card-title text-danger text-uppercase">Mes compétences</h2>
-                    <hr class="bg-white" />
-                    <div class="skill my-4">
-                      <b class="text-white h6">HTML</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="80%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">CSS</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="80%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">JAVASCRIPT</b>
-                      <div class="progress">   
-                        <div
-                          class="progress-bar bg-success "
-                          role="progressbar"
-                          data-progress="65%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">NODE.JS</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="60%"
-                        ></div>
-                      </div>
-                    </div>
-                   
-                    <div class="skill my-4">
-                      <b class="text-white h6">VueJS</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success "
-                          role="progressbar"
-                          data-progress="55%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">Bootstrap</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success "
-                          role="progressbar"
-                          data-progress="60%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">Git</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="60%"
-                        ></div>
-                      </div>
-                    </div>
-                     <div class="skill my-4">
-                      <b class="text-white h6">MongoDB</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="60%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">Mysql</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="60%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">PHP</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="55%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">POO</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="50%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">Laravel</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="55%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="skill my-4">
-                      <b class="text-white h6">JAVA (Spring Boot)</b>
-                      <div class="progress">
-                        <div
-                          class="progress-bar bg-success"
-                          role="progressbar"
-                          data-progress="40%"
-                        ></div>
-                  </div>
-                  </div>
-                  </div>
-          </section>
-          <!------------------------------------------- projects section ---------------------------------------------------->
-          <section id="projets">
-          <h3 class="card-title text-danger text-uppercase bg-dark text-center mt-5 py-2 ">Mes Projets</h3>
-
-          <div class="card-deck">
-
-            <div class="card card-projects">
-              <img src="./mon-cv.PNG" class="card-img-top" alt="CV">
-              <div class="card-body">
-                <h4 class="card-title text-danger">CV</h4>
-                <p class="card-text text-white">Transformez une maquette en site Web.</p>
-                <small class="text-white" >HTML5, CSS3</small>
-                <p class="card-text"><small class="text-muted">
-              <a href="https://github.com/Ahmed7511/mon-cv" class="card-link" target="blank">le code source</a>
-              <a href="https://ahmed7511.github.io/mon-cv/" class="card-link" target="blank">la page web</a>
-                </small></p>
-              </div>
-            </div>
-            <div class="card card-projects">
-              <img src="./menu.PNG" class="card-img-top"  alt="Menu-Restaurant">
-              <div class="card-body">
-                <h4 class="card-title text-danger">Oh My Food</h4>
-                <p class="card-text text-white">Dynamisez une page Web avec des animations CSS.</p>
-                <small  class="text-white">HTML5, CSS3</small>
-                <p class="card-text"><small class="text-muted">
-                  
-              <a href="https://github.com/Ahmed7511/Menu-Restaurant" class="card-link" target="blank">Le code source</a>
-              <a href="https://ahmed7511.github.io/Menu-Restaurant/" class="card-link" target="blank">La page web</a>
-                </small></p>
-              </div>
-            </div>
-            
-            <div class="card card-projects">
-              <img src="./la-chouette.jpg" class="card-img-top"  alt="la-chouette">
-              <div class="card-body">
-                <h4 class="card-title text-danger">La Chouette</h4>
-                <p class="card-text text-white">Optimiser un site Web existant.</p>
-                <small  class="text-white">SEO, W3C, Google Search Console, Google Lighthouse</small>
-                <p class="card-text"><small class="text-muted">
-              <a href="https://ahmed7511.github.io/p4-origine/" class="card-link" target="blank">La page web initial</a>
-                <a href="https://github.com/Ahmed7511/la-chouette" class="card-link" target="blank">Le code source</a>
-                <a href="https://ahmed7511.github.io/la-chouette/" class="card-link" target="blank">La page Optimiser</a>
-             </small></p>
-              </div>
-            </div>
-          </div>
-        <div class="card-deck mt-4">
-          <div class="card card-projects">
-            <img src="./Orinico.PNG" class="card-img-top"  alt="Orinico">
-            <div class="card-body">
-              <h4 class="card-title text-danger">Orinico</h4>
-              <p class="card-text text-white">Créer un site Web de e-commerce .</p>
-              <small class="text-white">HTML5, CSS3, Javascript</small>
-              <p class="card-text"><small class="text-muted">
-              <a href="https://github.com/Ahmed7511/Orinico" class="card-link" target="blank">Le code source</a>
-           </small></p>
-            </div>
-          </div>
-          <div class="card card-projects">
-            <img src="./Sauce.jpg" class="card-img-top"  alt="la-chouette">
-            <div class="card-body">
-              <h4 class="card-title text-danger">So pekocko</h4>
-              <p class="card-text text-white">Créez une API sécurisée pour une application.</p>
-              <small  class="text-white">NodeJs, Express, Mongoose, MongoDB</small>
-              <p class="card-text"><small class="text-muted">
-              <a href="https://github.com/Ahmed7511/So-pekocko" class="card-link" target="blank">Le code source</a>
-           </small></p>
-            </div>
-          </div>
-          <div class="card card-projects">
-            <img src="./Groupomania.jpg" class="card-img-top"  alt="Groupomania">
-            <div class="card-body">
-              <h4 class="card-title text-danger">Groupomania</h4>
-              <p class="card-text text-white">
-                Créer un réseau social d'entreprise.</p>
-                <small class="text-white">NodeJs, Express, Sequelize, Mysql, VueJS, Vuetify</small>
-              <p class="card-text"><small class="text-muted">
-              <a href="https://github.com/Ahmed7511/Groupomania" class="card-link" target="blank">Le code source</a>
-           </small></p>
-            </div>
-          </div>
-        <div class="card card-projects">
-          <img src="./Messagerie.jpg" class="card-img-top"  alt="Messagerie">
-          <div class="card-body">
-            <h4 class="card-title text-danger">Messagerie</h4>
-            <p class="card-text text-white">
-              messagerie instantané.</p>
-              <small class="text-white"> Mysql, Php</small>
-            <p class="card-text"><small class="text-muted">
-            <a href="https://github.com/Ahmed7511/Messagerie" class="card-link" target="blank">Le code source</a>
-         </small></p>
-          </div>
-        </div>
-        <div class="card card-projects">
-          <img src="./SnakeGame.PNG" class="card-img-top"  alt="SnakeGame">
-          <div class="card-body">
-            <h4 class="card-title text-danger">SnakeGame</h4>
-            <p class="card-text text-white">
-              jeu de serpent.</p>
-              <small class="text-white"> Mysql, Php Laravel, JavaScript </small>
-            <p class="card-text"><small class="text-muted">
-            <a href="https://github.com/Ahmed7511/SnakeGame" class="card-link" target="blank">Le code source</a>
-         </small></p>
-          </div>
-        </div>
-      </div>
-      
-      </div>
-        </section>
-          <!--------------------------- section contact ------------------------------->
-        <section id="contact">
-          <div class="container-fluid mt-5">
-          <h3 class="card-title text-danger text-uppercase bg-dark text-center py-2">Contact</h3>
-          
-              <div class="row">
-                        <div class="col-sm-6">
-                          <div class="email">
-                          <i class="fas fa-envelope"></i><strong>Email :  <a class="text-white" href="mailto:Ahmed.mohamedcherifpro@gmail.com" >Ahmed.mohamedcherifpro@gmail.com</a> </strong>
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="ms-2">Hey, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Ahmed </span>
+                                    <span class="animated-item">a web developer</span>
+                                </div>
+                              
+                        </h1> 
+                           <br>
+                        <p>Building a successful product is a challenge. I am highly energetic in web development.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="./Ahmed mohamed cherif cv_2023.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact me</a>
+                          <a href="https://www.linkedin.com/in/ahmed-mohamed-cherif-a6119a1a2/" target="blank" class="btn custom-btn custom-btn-bg custom-btn-link">Linkedin</a>
+                          <a href="https://github.com/Ahmed7511" target="blank" class="btn custom-btn custom-btn-bg custom-btn-link">Github</a>
                         </div>
-                          <div class="mobile mt-3">
-                              <i class="fa fa-mobile"></i> <strong>Portable : </strong>
-                               <p class="text-white">   07 68 07 12 89</p>
-                          </div>
-                         
-                   
-                        </div>
-                      <div class="map row">
-                        <div class="col-sm-6">
-
-                        <div class="Adress">
-                          <i class="fa fa-map-marker"></i>
-                              <strong>Adresse :</strong>
-                              <p class="text-white">Paris, FRANCE</p> 
-                      </div>
-                              <div>
-                                <iframe title="location" class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769374045!2d2.2770196569436507!3d48.85895068149207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1604649749001!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                           
-                                 </div>
-                          </div>
-                      </div>
-              </div>
-            </div>
-  
-              </section>
-              
-            </div>
-
-              <!--------------------------------- footer ------------------------>
-              <footer class="bg-dark text-center text-white">
-                <div class="container-fluid p-4 ">
-                  © Copyright 2020 AHMED Mohamed Cherif
+                    </div>
                 </div>
-            </footer>   
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_programming_re_kg9v.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>My projects</h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/mon-cv.PNG" class="img-fluid" alt="project image">
+                          </div>
+                          <p class="card-text"><small class="text-muted">
+                            <a href="https://github.com/Ahmed7511/mon-cv" class="card-link" target="blank">le code source</a>
+                            <a href="https://ahmed7511.github.io/mon-cv/" class="card-link" target="blank">la page web</a>
+                              </small></p>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/menu.PNG" class="img-fluid" alt="project image">
+                          </div>
+                          <p class="card-text"><small class="text-muted">
+                  
+                            <a href="https://github.com/Ahmed7511/Menu-Restaurant" class="card-link" target="blank">Le code source</a>
+                            <a href="https://ahmed7511.github.io/Menu-Restaurant/" class="card-link" target="blank">La page web</a>
+                              </small></p>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/la-chouette.jpg" class="img-fluid" alt="project image">
+                          </div>
+                          <p class="card-text"><small class="text-muted">
+                            <a href="https://ahmed7511.github.io/p4-origine/" class="card-link" target="blank">La page web initial</a>
+                              <a href="https://github.com/Ahmed7511/la-chouette" class="card-link" target="blank">Le code source</a>
+                              <a href="https://ahmed7511.github.io/la-chouette/" class="card-link" target="blank">La page Optimiser</a>
+                           </small></p>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/Orinico.PNG" class="img-fluid" alt="project image">
+                          </div>
+                          <p class="card-text"><small class="text-muted">
+                            <a href="https://github.com/Ahmed7511/Orinico" class="card-link" target="blank">Le code source</a>
+                         </small></p>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/Sauce.jpg" class="img-fluid" alt="project image">
+                          </div>
+                          <p class="card-text"><small class="text-muted">
+                            <a href="https://github.com/Ahmed7511/So-pekocko" class="card-link" target="blank">Le code source</a>
+                         </small></p>
+                        </div>
+                      
+                      <div class="item">
+                        <div class="project-info">
+                          <img src="images/project/Groupomania.jpg" class="img-fluid" alt="project image">
+                        </div>
+                        <p class="card-text"><small class="text-muted">
+                          <a href="https://github.com/Ahmed7511/Groupomania" class="card-link" target="blank">Le code source</a>
+                       </small></p>
+                      </div>
+                      <div class="item">
+                        <div class="project-info">
+                          <img src="images/project/Messagerie.jpg" class="img-fluid" alt="project image">
+                        </div>
+                        <p class="card-text"><small class="text-muted">
+                          <a href="https://github.com/Ahmed7511/Messagerie" class="card-link" target="blank">Le code source</a>
+                       </small></p>
+                      </div>
+
+                      <div class="item">
+                        <div class="project-info">
+                          <img src="images/project/SnakeGame2.PNG" class="img-fluid" alt="project image">
+                        </div>
+                        <p class="card-text"><small class="text-muted">
+                          <a href="https://github.com/Ahmed7511/SnakeGame" class="card-link" target="blank">Le code source</a>
+                       </small></p>
+                      </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2022</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Backend Developer(Laravel)</span><small>Link To up</small></h3>
+                                  <p>participated in the development of the winwindeveloppement e-learning platform</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2021</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Application Developer</span><small>WEBITECH paris</small></h3>
+                                  <ul>
+                                    <li>develop desktop or web applications</li>
+                                     <li> Develop user interfaces</li>
+                                      <li>Model and create a relational type </li>
+                                      <li>Design and develop a multi-layer application based on specifications</li>
+                                      <li>Comply with security requirements in application development</li>
+                                  </ul>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Web Developer</span><small>OpenClassrooms</small></h3>
+                                 <ul>
+                                  <li>Build a responsive and dynamic website</li>
+                                    <li>Create APIs and databases</li>
+                                    <li> Optimize the performance and carry out the maintenance of existing websites </li>
+                                    <li>Manage a web project from A to Z</li>
+                                 </ul>
+                              </div>
+                        </div>
+                    
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
           
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe title="location" class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769374045!2d2.2770196569436507!3d48.85895068149207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1604649749001!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                           
+            </div>
 
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                 <p><i class="uil uil-mobile-android-alt"><a class="footer-text mb-0">0768 07 12 89</a></i>
+                </p>
+                <p><i class="uil uil-envelope-edit"><a href="mailto:hello@company.co"> ahmed.mohamedcherifpro@gmail.com</a></i>
+                </p>
+                </div>
 
-        
-      
+            
+            </div>
+          </div>
+<!-- 
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
-    </div>
+              <form action="" method="get">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
 
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
 
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
 
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div> -->
 
+        </div>
+      </div>
+    </section>
+</div>
+<!------------------------------------------------------- scrolling button ----------------------------------------------------------->
+<button id="scrollToTop" aria-label="scroll" >
+  <i class="uil uil-power"></i>
+</button>
+<!--------------------------------- footer ------------------------>
+<footer class="bg-dark text-center text-white">
+<div class="container-fluid p-4 ">
+© Copyright 2020 AHMED Mohamed Cherif
+</div>
+</footer>  
+   
 
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
 
-
-
-
-
-    <script src="https://kit.fontawesome.com/ce7aa8f479.js" crossorigin="anonymous"></script>
-
-    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
-    <script defer src="portfolio.js"></script>
   </body>
 </html>
